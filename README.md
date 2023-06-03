@@ -1,1 +1,3 @@
-# weather-task
+The application allows you to add one or more cities to the database and saves information about today's temperature. When downloading weather information for saved cities, the data is read from the database.
+POST /weather - saves the weather (today's temperature) for a given city for today in the database. When you try to add a city for which there is no weather or other error occurs. You can add multiple city names in one query.
+GET /weather - returns a list of cities with today's weather.
